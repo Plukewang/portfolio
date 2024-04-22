@@ -1,0 +1,113 @@
+html{scroll-behavior:smooth}
+
+button {
+
+    padding: 10px;
+
+    box-shadow: inset 0 0 0 2px transparent;
+    color: black;
+    font-size: inherit;
+    font-weight: 700;
+  
+
+    position: relative;
+    vertical-align: middle;
+  
+    &::before,
+    &::after {
+      box-sizing: inherit;
+      content: '';
+      position: absolute;
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+.draw {
+    transition: color 0.1s;
+
+  &::before,
+  &::after {
+    
+    border: 2px solid transparent;
+    width: 0;
+    height: 0;
+  }
+
+  
+  &::before {
+    top: 0;
+    left: 0;
+  }
+
+  
+  &::after {
+    bottom: 0;
+    right: 0;
+  }
+  
+  &:hover {
+    color: #0ea5e9;
+  }
+
+  
+  &:hover::before,
+  &:hover::after {
+    width: 100%;
+    height: 100%;
+  }
+
+  &:hover::before {
+    border-top-color: #0ea5e9; 
+    border-right-color: #0ea5e9;
+    transition:
+      width 0.1s ease-out, 
+      height 0.1s ease-out 0.1s; 
+  }
+
+  &:hover::after {
+    border-bottom-color: #0ea5e9; 
+    border-left-color: #0ea5e9;
+    transition:
+      border-color 0s ease-out 0.2s, 
+      width 0.1s ease-out 0.2s, 
+      height 0.1s ease-out 0.3s; 
+  }
+}
+
+.preview{
+    filter: blur(4px);
+    transition: filter 0.5s;
+    
+}
+.preview:hover{
+    filter: none;
+    transition: filter 0.5s;
+}
+
+  
+.interested:hover{
+    background: linear-gradient(to right, white 10% ,black 20%, white 40%, black 60%, #FFF 80%);
+  background-size: 200% auto;
+  
+  color: #000;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+  animation: shine 5s linear infinite;
+  @keyframes shine {
+    to {
+      background-position: 200% center;
+    }
+  }
+
+    
+}
+
+@keyframes shine {
+
+    to {
+        background-position: 200% center;
+      }
+}
