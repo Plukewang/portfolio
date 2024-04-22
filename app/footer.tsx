@@ -2,6 +2,7 @@ import Image from "next/image";
 import linkedin from '../public/icons/linkedin.png'
 import github from '../public/icons/github.png'
 import gmail from '../public/icons/gmail.png'
+import '../public/app.css';
 
 export default function Footer(){
     return(

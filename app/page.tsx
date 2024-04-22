@@ -10,8 +10,8 @@ import express from "../public/icons/express.png"
 import node from "../public/icons/2560px-Node.js_logo.svg.png"
 import pg from "../public/icons/pg.png"
 
-import preview1 from '../public/preview1.png'
-import '../public/app.css';
+import preview1 from "../public/preview1.png"
+import "../public/app.css";
 
 export default function Home() {
   return (
@@ -19,18 +19,18 @@ export default function Home() {
     <div className="flex justify-between my-4 mx-5 sticky top-0">
       <div className="flex justify-start gap-10 font-semibold text-xl my-4">
         
-        <a href='#aboutme'>
+        <a href="#aboutme">
           <button className="draw"><h1>About Me</h1></button>
         </a>
-        <a href='#whatido'>
+        <a href="#whatido">
           <button className="draw"><h1>What I do</h1></button>
         </a>
-        <a href='#projects'>  
+        <a href="#projects">  
           <button className="draw"><h1>Projects</h1></button>
         </a>
       </div>
      
-      <a href = '#interested' className="flex justify-end font-semibold text-2xl my-4 ">
+      <a href = "#interested" className="flex justify-end font-semibold text-2xl my-4 ">
         <h1 className="interested">Interested?</h1>
       </a>
     </div>
@@ -42,21 +42,21 @@ export default function Home() {
           width={180}
           height={180}
           alt="placeholder avatar icon" 
-          className="my-10 rounded-full border-2 border-[#0ea5e9]"
+          className="my-10 rounded-full border-2 border-white"
           />
         <h1 className=" my-7 text-5xl">
-          Hey, I'm Peiyang Wang,
+          Hey, I&apos;m Peiyang Wang,
         </h1>
         <h2 className="my-2 text-2xl">
           I develop functional and easy-to-use user experiences.
         </h2>
       </div>
       
-      <div id = 'aboutme' className="text-center w-full flex flex-col items-center  pb-96 ">
+      <div id = "aboutme" className="text-center w-full flex flex-col items-center  pb-96 ">
         <h1 className=" my-7 text-5xl">About Me</h1>
         <p className="p-5 text-lg w-3/5 text-justify">
-          I'm a web developer with experience in full-stack app development primarily using the Postgres-Express-React stack. 
-          My work philosophy is simple: "Think ahead, move fast, and adapt quickly." I believe that a good website or application should be designed to 
+          I&apos;m a web developer with experience in full-stack app development primarily using the Postgres-Express-React stack. 
+          My work philosophy is simple: &quot;Think ahead, move fast, and adapt quickly.&quot; I believe that a good website or application should be designed to 
           maximize ease of use  without compromising functionality. </p>
 
         <p className="p-5 text-lg w-3/5 text-justify">
@@ -65,7 +65,7 @@ export default function Home() {
         </p>
       </div>
 
-      <div id = 'whatido' className="text-center w-full flex flex-col items-center ">
+      <div id = "whatido" className="text-center w-full flex flex-col items-center ">
         <h1 className=" my-7 text-5xl">What I Do</h1>
         <h2 className=" my-7 text-3xl">Front-End</h2>
           <ul className="flex items-center mb-32">
@@ -132,7 +132,7 @@ export default function Home() {
         </ul>
       </div>
 
-      <div id = 'projects' className="text-center w-full flex flex-col items-center  pb-96 ">
+      <div id = "projects" className="text-center w-full flex flex-col items-center  pb-96 ">
         <h1 className=" my-7 text-5xl pb-20">Projects</h1>
           <ul className="flex flex-col">
             <li>
@@ -150,8 +150,8 @@ export default function Home() {
       </div>
      
     </main>
-    <div id = 'interested' className="text-center w-full flex flex-col items-center  pb-96 ">
-    <h1 className=" my-7 text-3xl pb-20">
+    <div id = "interested" className="text-center w-full flex flex-col items-center  ">
+    <h1 className=" my-7 text-3xl">
         Interested? Contact me below.
       </h1>
     </div>
