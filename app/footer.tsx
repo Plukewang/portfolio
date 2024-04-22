@@ -7,7 +7,7 @@ import '../public/app.css';
 export default function Footer(){
     return(
         <div id = 'footer' className="w-full flex justify-center py-8 my-8">
-            <div className="w-3/6 ">
+            <div className="lg:w-3/6 max-sm:w-full flex justify-center">
                 <ul className="flex flex-row justify-center">
                     <li className="py-2 flex flex-row justify-between content-center">
                         
