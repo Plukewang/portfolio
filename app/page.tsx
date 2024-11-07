@@ -11,7 +11,7 @@ import node from "../public/icons/2560px-Node.js_logo.svg.png"
 import pg from "../public/icons/pg.png"
 
 import preview1 from "../public/preview1.png"
-import preview2 from "../public/preview2.png"
+import preview2 from "../public/previewTennoHeadlines.png"
 import "../public/app.css";
 
 export default function Home() {
