@@ -11,6 +11,7 @@ import node from "../public/icons/2560px-Node.js_logo.svg.png"
 import pg from "../public/icons/pg.png"
 
 import preview1 from "../public/preview1.png"
+import preview2 from "../public/preview2.png"
 import "../public/app.css";
 
 export default function Home() {
@@ -139,11 +140,22 @@ export default function Home() {
               <h2 className="p-5 text-xl">The Hereafter</h2>
               <a href="https://hereafter-react.vercel.app/" className="flex flex-col items-center" >
                 <Image src={preview1}
-                  alt="expressJs icon" 
+                  alt="hereafter website image" 
                   className="mx-2 border-1 rounded-md preview max-sm:4/5 lg:w-2/5"
                 />
                 </a>
                 <p className="p-5">A master site for a custom-made personal table-top RPG.</p>
+            </li>
+
+            <li >
+              <h2 className="p-5 text-xl">Tenno Headlines</h2>
+              <a href="https://tennoheadlines.vercel.app/" className="flex flex-col items-center" >
+                <Image src={preview2}
+                  alt="tenno headlines image" 
+                  className="mx-2 border-1 rounded-md preview max-sm:4/5 lg:w-2/5"
+                />
+                </a>
+                <p className="p-5">A custom-made missions and rewards tracker for the game Warframe.</p>
             </li>
           </ul>
       </div>
