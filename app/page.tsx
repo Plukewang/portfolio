@@ -1,6 +1,6 @@
 import Image from "next/image";
+import Cover from "./ui/cover";
 import Footer from "./footer";
-import avatar from "../public/icons/avatar.png"
 import react from "../public/icons/react.png"
 import sass from "../public/icons/sass.png"
 import bootstrap from "../public/icons/boostrap.png"
@@ -16,9 +16,14 @@ import "../public/app.css";
 
 export default function Home() {
   return (
-    <>
-    <div className="flex max-sm:justify-center lg:justify-between my-4 mx-5 lg:sticky top-0 flex-wrap ">
-      <div className="flex lg:justify-start max-md:justify-around gap-10 font-semibold text-xl my-4 nav">
+    <div className="h-full flex flex-col justify-center">
+      <Cover/>
+    </div>
+  );
+}
+
+/**
+ *       <div className="flex lg:justify-start max-md:justify-around gap-10 font-semibold text-xl my-4 nav">
         
         <a href="#aboutme">
           <button className="draw"><h1>About Me</h1></button>
@@ -165,8 +170,5 @@ export default function Home() {
     <h1 className=" my-7 text-3xl">
         Interested? Contact me below.
       </h1>
-    </div>
-    <Footer/>
-    </>
-  );
-}
+       <Footer/>
+ */

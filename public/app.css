@@ -1,3 +1,5 @@
+
+
 html{
     scroll-behavior:smooth;
     
@@ -5,17 +7,38 @@ html{
 
 
 body{
-    background: linear-gradient(20deg, #3fbcaf 40%, #0ea5e9 60%, #6c69d3 80%);
+  --main-bg-color: #172121;
+  --darker-bg-color: #293d3d;
+  --text-color: #D9D9D9;
+  --border-color: #8B786D;
+    background: linear-gradient(60deg, var(--main-bg-color) 40%, var(--darker-bg-color) 60%);
     background-size: 400% 400%;
-	animation: gradient 10s linear infinite;
-    color: white;
+	  animation: gradient 15s ease infinite;
+    height: 100vh;
+    color: var(--text-color);
 }
 
-@keyframes gradient {
-	0%{background-position:38% 0%}
-    50%{background-position:63% 100%}
-    100%{background-position:38% 0%}
+.highlight{
+  border-color: var(--border-color);
+  border-width: 2px;
+  
 }
+
+:hover{
+  border-color: var(--text-color)
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
 button {  
   
 
