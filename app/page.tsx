@@ -1,17 +1,5 @@
-import Image from "next/image";
-import Cover from "./ui/cover";
-import Footer from "./footer";
-import react from "../public/icons/react.png"
-import sass from "../public/icons/sass.png"
-import bootstrap from "../public/icons/boostrap.png"
-import tailwind from "../public/icons/tailwind.svg"
-import next from "../public/icons/next.png"
-import express from "../public/icons/express.png"
-import node from "../public/icons/2560px-Node.js_logo.svg.png"
-import pg from "../public/icons/pg.png"
 
-import preview1 from "../public/preview1.png"
-import preview2 from "../public/previewTennoHeadlines.png"
+import Cover from "./ui/cover";
 import "../public/app.css";
 
 export default function Home() {
