@@ -1,0 +1,22 @@
+.navbar{
+    min-height: 50px;
+    border-color: #8B786D;
+    text-align: center;
+
+    position: -webkit-sticky;
+    top: 0;
+
+    >*{
+        align-items: center;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        min-height: 50px;
+    }
+}
+
+
+.links{
+    justify-content: space-around;
+    position: sticky;
+    bottom: 0;
+}
