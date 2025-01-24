@@ -19,7 +19,7 @@ export default function NavBarLinks({top}:navLinkBarsProps){
         <Link
             key={"My Projects"}
             href={'/projects'}
-            className="text-[20px] my-3 p-2"
+            className="text-[24px] my-3 p-2"
         >
             <h2>
                 My Projects
@@ -29,7 +29,7 @@ export default function NavBarLinks({top}:navLinkBarsProps){
         <Link
             key={"About Me"}
             href={'/aboutme'}
-            className="text-[20px] my-3 p-2"
+            className="text-[24px] my-3 p-2"
         >
             <h2>
                 About Me
@@ -39,7 +39,7 @@ export default function NavBarLinks({top}:navLinkBarsProps){
         <Link
             key={"Contact"}
             href={'/contact'}
-            className="text-[20px] my-3 p-2"
+            className="text-[24px] my-3 p-2"
         >
             <h2>
                 Contact

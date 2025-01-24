@@ -10,7 +10,7 @@ export default function Navbar(){
             </h1>
 
 
-                <NavBarLinks top/>
+            <NavBarLinks top/>
 
         </div>
     )
