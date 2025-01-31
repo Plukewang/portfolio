@@ -2,16 +2,17 @@ import Image from "next/image";
 import avatar from "../../public/icons/avatar.png";
 import Link from "next/link";
 
+
 export default function Cover(){
     return(
-        <div className="w-full h-1/2 flex flex-col align-center justify-center text-center">
+        <div className="w-full h-1/2 flex flex-col align-center justify-center text-center ">
 
             <div className="flex flex-row justify-center mx-2">
             <Image src={avatar}
                 width={180}
                 height={180}
                 alt="placeholder avatar icon" 
-                className="rounded-full flex flex-row justify-center bg-[#D9D9D9]"
+                className="rounded-full flex flex-row justify-center "
             />
             </div>
             

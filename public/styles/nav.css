@@ -5,13 +5,17 @@
 
     position: -webkit-sticky;
     top: 0;
-
+    background-color: #172121;
+    border-radius: 2px;
+    border-color: #8B786D;
     >*{
         align-items: center;
         margin-left: 1rem;
         margin-right: 1rem;
         min-height: 50px;
     }
+
+    
 }
 
 

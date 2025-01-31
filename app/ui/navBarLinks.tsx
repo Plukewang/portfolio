@@ -6,10 +6,10 @@ interface navLinkBarsProps{
 }
 
 export default function NavBarLinks({top}:navLinkBarsProps){
-    let shown = clsx("sticky flex-row lg:w-1/3 links text-center", 
+    let shown = clsx("sticky flex-row lg:w-1/3 links text-center ", 
         {
             "lg:flex hidden": top===true,
-            "lg:hidden flex": top===false,
+            "lg:hidden flex border-t-2 border-[#8B786D] bg-[#172121]": top===false,
         }
     );
 

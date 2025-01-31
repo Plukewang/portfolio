@@ -36,7 +36,7 @@ export default function Story({link,title,src,description}:storyProps){
             </div>
             </Link>
 
-            <p className="m-3 p-2">
+            <p className="m-3 p-2 w-[300px]">
                 {description? description : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis  est sed vestibulum aliquet. Etiam ullamcorper ornare dolor vel dapibus.  Nulla maximus sagittis erat eget bibendum. Sed libero augue, condimentum quis felis et, sagittis mattis risus. Ut volutpat, ante"}
             </p>
         </div>
