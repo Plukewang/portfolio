@@ -12,10 +12,11 @@ body{
   --text-color: #D9D9D9;
   --border-color: #8B786D;
     background: linear-gradient(60deg, var(--main-bg-color) 40%, var(--darker-bg-color) 60%);
-    background-size: 800% 800%;
+    background-size: 400% 400%;
 	  animation: gradient 15s ease infinite;
-    height: 200vh;
+    height: 100vh;
     color: var(--text-color);
+    white-space: pre-wrap;
 }
 
 .highlight{

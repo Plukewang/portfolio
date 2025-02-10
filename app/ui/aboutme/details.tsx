@@ -20,12 +20,14 @@ export default function Details({title,src,description,id}:detailProps){
 
                 <Image 
                     src={src? src: placeholderThumbnail}
+                    width={350}
+                    height={350}
                     alt={title? title:"placeholder title"}
-                    className="lg:col-start-2 lg:row-start-2 rounded-xl object-cover h-auto m-10"
+                    className="lg:col-start-2 lg:row-start-2 rounded-xl object-cover m-10"
                 />
                 <div className="lg:col-span-2 lg:col-start-3 lg:row-start-2 lg:w-1/2 lg:max-w-7xl lg:px-8">
                     
-                    <p className="mt-6 text-xl/8 ">
+                    <p className="mt-6 text-xl ">
                         {description}
                     </p>
                 </div>

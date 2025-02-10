@@ -4,7 +4,7 @@ import "../public/app.css";
 
 export default function Home() {
   return (
-    <div className="h-full flex flex-col justify-center">
+    <div className="h-screen flex flex-col justify-center">
       <Cover/>
     </div>
   );

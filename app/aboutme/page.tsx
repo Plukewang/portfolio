@@ -1,6 +1,10 @@
 import Details from "../ui/aboutme/details"
+import "../../public/app.css"
+import myface from "../../public/icons/avatar.png"
+import utaustin from "../../public/utaustin.png"
+import react from "../../public/icons/react.png"
 
-export default function Projects(){
+export default function Aboutme(){
     return (
     <div className="flex flex-col items-center overflow-hidden">
 
@@ -29,33 +33,23 @@ export default function Projects(){
             <div className="lg:col-span-3 lg:col-start-2 lg:row-span2">
                 <Details 
                     title={"I'm a software developer with a focus on the web."}
-                    src={null}
-                    description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod  tempor 
-                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim  veniam, quis nostrud exercitation ullamco 
-                    laboris nisi ut aliquip ex ea  commodo consequat. Duis aute irure dolor in reprehenderit in voluptate  
-                    velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint  occaecat cupidatat non proident, 
-                    sunt in culpa qui officia deserunt  mollit anim id est laborum."
+                    src={myface}
+                    description={`I\'m a web developer with experience in full-stack app development primarily using the Postgres-Express-React stack. My work philosophy is simple: Think ahead, move fast, and adapt quickly. I believe that a good website or application should be designed to maximize ease of use without compromising functionality.
+
+                    In my leisure time I run a fully custom-made table-top RPG complete with its own world and lore with a close group of friends, writing stories, creating art assets, and developing mechanics to streamline the player experience.`}
                     id="background"
                 />
                 
                 <Details 
                     title={"I’m a 2022 Graduate from UT Austin."}
-                    src={null}
-                    description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod  tempor 
-                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim  veniam, quis nostrud exercitation ullamco 
-                    laboris nisi ut aliquip ex ea  commodo consequat. Duis aute irure dolor in reprehenderit in voluptate  
-                    velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint  occaecat cupidatat non proident, 
-                    sunt in culpa qui officia deserunt  mollit anim id est laborum."
+                    src={utaustin}
+                    description={`I graduated from the University of Texas at Austin in May 2022 with a Bachelor of Science in Physics and am currently pursuing further education in computer science in San Antonio. I\'m mostly self-taught in my programming knowledge, though I have plenty of projects to demonstrate what I know.`}
                     id="education"
                 />
                 <Details 
                     title={"My skills at a glance:"}
-                    src={null}
-                    description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod  tempor 
-                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim  veniam, quis nostrud exercitation ullamco 
-                    laboris nisi ut aliquip ex ea  commodo consequat. Duis aute irure dolor in reprehenderit in voluptate  
-                    velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint  occaecat cupidatat non proident, 
-                    sunt in culpa qui officia deserunt  mollit anim id est laborum."
+                    src={react}
+                    description={`I primarily work with JavaScript and TypeScript. \n\nFront end: React, NextJS, React Mobile, TailWind.\n\nBack end: Node.js, Express, Postgres`}
                     id="skills"
                 />
             </div>
