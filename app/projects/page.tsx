@@ -7,7 +7,7 @@ export default function Projects(){
     return (
         <div className="my-2">
             <div className="w-full h-[200px]"></div>
-            <h1 className="max-md:w-full lg:my-7 text-3xl font-bold m-2 text-center">Here are a few of the projects I've worked on.</h1>
+            <h1 className="max-md:w-full lg:my-7 text-3xl font-bold m-2 text-center">Here are a few of the projects I&aposve worked on.</h1>
 
             <div className="grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8">
                 {//
