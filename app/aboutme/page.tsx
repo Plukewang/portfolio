@@ -1,7 +1,7 @@
 import Details from "../ui/aboutme/details"
 import "../../public/app.css"
 import myface from "../../public/icons/avatar.png"
-import utaustin from "../../public/utaustin.png"
+import utaustin from "../../public/utaustin.png"//this needed to be renamed.
 import react from "../../public/icons/react.png"
 
 export default function Aboutme(){
